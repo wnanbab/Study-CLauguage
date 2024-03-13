@@ -1,13 +1,5 @@
 
-
-
-while(scanf("%d",&n)!=EOF){
-        if(n > maxnum){
-            maxnum = n;
-        }
-    }
-
-    #include<stdio.h>
+#include<stdio.h>
 #include<string.h>
 
 int main () {

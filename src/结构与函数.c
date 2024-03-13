@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/*
+struct date{
+    int month;
+} myday ;
+
+struct date *p = &myday;
+
+(*p).month = 12;
+p->month = 12;
+*/
+
 struct date
 {
     int day;
