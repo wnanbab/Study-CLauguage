@@ -15,7 +15,11 @@ Array array_creat(int init_size){
     return a;
 }
 
-void  array_free(Array *a){
+void  array_free(Array *a){ 
+    //释放创造的遍历量 *array
+    free(a->array);
+    a->array = NULL;
+    a->size = 0;
 
 }
 int array_size(const Array *a);
@@ -24,5 +28,6 @@ void array_inflate(Array *a, int more_size)
 
 int main(){
     Array a = array_creat(100);
+    array_free(&a);
     return 0;
 }

@@ -1,13 +1,12 @@
 {
-    "java.debug.settings.stepping.skipClasses": [
-
-    ],
-    "java.debug.settings.exceptionBreakpoint.skipClasses": [
-        
-    ],
+    "java.debug.settings.stepping.skipClasses": [],
+    "java.debug.settings.exceptionBreakpoint.skipClasses": [],
     "C_Cpp.errorSquiggles": "disabled",
     "editor.suggest.preview": false,
     "editor.suggest.filterGraceful": true,
     "editor.suggest.showDeprecated": false,
-    "editor.suggest.showIcons": true
+    "editor.suggest.showIcons": true,
+    "files.associations": {
+        "random": "c"
+    }
 }
